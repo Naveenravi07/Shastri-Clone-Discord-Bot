@@ -12,6 +12,7 @@
   "dependencies": {
     "ascii-table": "^0.0.9",
     "canvas": "^2.9.1",
+    "discord-dashboard": "^2.3.22",
     "discord-player": "^5.2.2",
     "discord.js": "^13.6.0",
     "express-handlebars": "^6.0.5",

@@ -41,5 +41,4 @@ client.once('ready', async () => {
 
 
 module.exports = client
-console.log("workflow DOne");
 client.login(token);

@@ -3,6 +3,8 @@ const { messagelogchannel } = require('../../config.json')
 module.exports = {
     name: 'clear',
     description: "Deletes The Message In A Channel",
+    usage:".clear",
+    permissions:"manage messages",
     async execute(client, message, message2, args) {
         if (!message.member.permissions.has("MANAGE_MESSAGES")) {
             message.reply("You Do Not Have Permissions To Delete Messages")

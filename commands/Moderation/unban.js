@@ -10,6 +10,8 @@ client.commands = new Discord.Collection();
 module.exports = {
     name:"unban",
     description:"Unbans a User",
+    usage:".unban",
+    permissions:"ban members",
 
     async execute(client, message, message2, args){
         if(!message.member.permissions.has("BAN_MEMBERS")) {

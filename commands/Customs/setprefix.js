@@ -5,8 +5,8 @@ module.exports = {
     name: "setprefix",
     aliases:["sp"],
     description: "Sets The Custom Prefix For The Guild",
-
-
+    usage:".setprefix",
+    permissions:"Administrator",
     async execute(client, message, message2, args) {
         if (!message.member.permissions.has("ADMINISTRATOR")) {
             message.reply("You Do Not Have Permissions To Set Custom Prefix ❌⛔❌")

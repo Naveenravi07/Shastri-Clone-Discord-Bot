@@ -7,7 +7,8 @@ module.exports = {
     name: "disablelogs",
     aliases:["stoplog","sl"],
     description: "Disables Logging System For Message Delete",
-
+    usage:".disablelogs",
+    permissions:"administrator",
     async execute(client, message, message2, args) {
 
 

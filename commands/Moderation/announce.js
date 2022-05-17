@@ -3,6 +3,8 @@ module.exports = {
     name: "announce",
     description: "announce a message in an embedd",
     aliases:["say"],
+    usage:".announce",
+    permissions:"manage messages",
     async execute(client, message, message2, args) {
         if (!message.member.permissions.has("MANAGE_MESSAGES")) {
             message.reply("You Do Not Have Permissions To Announce A Message ")

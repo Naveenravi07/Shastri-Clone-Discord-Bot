@@ -1,5 +1,5 @@
 body {
-    background-color: #2020;
+    background-color: #202020;
     height: 100%;
 }
 
@@ -10,6 +10,7 @@ body {
 
 .container {
     height: auto;
+
 }
 
 .navbar {
@@ -97,4 +98,9 @@ button:active {
 #invitebtn {
     text-align: center;
     align-items: center;
+}
+.cmdheading{
+    color: #48abe0;
+    align-items: center;
+    text-align: center;
 }

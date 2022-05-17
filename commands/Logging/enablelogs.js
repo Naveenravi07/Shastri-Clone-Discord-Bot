@@ -6,7 +6,8 @@ module.exports = {
   name: "enablelogs",
   aliases:["startlog","el"],
   description: "Creates Logging System For Message Delete",
-
+  usage:".enablelogs",
+  permissions:"administrator",
   async execute(client, message, message2, args) {
     return new Promise(async (resolve, reject) => {
       let state = {}

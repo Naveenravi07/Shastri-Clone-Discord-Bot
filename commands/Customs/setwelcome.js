@@ -4,6 +4,8 @@ module.exports = {
     name: "setwelcome",
     aliases:["sl"],
     description: "Sets A Custom Welcome Channel For The Guild",
+    usage:".setwelcome #channel",
+    permissions:"Administrator",
 
     async execute(client, message, message2, args) {
         if (!message.member.permissions.has("ADMINISTRATOR")) {

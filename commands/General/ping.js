@@ -2,7 +2,8 @@ let {MessageEmbed}=require("discord.js")
 module.exports={
     name:"ping",
     description:"Shows The Bot Latency ",
-
+    permissions:"everyone",
+    usage:".ping",
     async execute(client, message, message2, args){
         let msg=message.reply("Calculating Ping 🍭🍭").then(resultmessage=>{
             const ping=resultmessage.createdTimestamp-message.createdTimestamp

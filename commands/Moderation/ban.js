@@ -10,6 +10,10 @@ client.commands = new Discord.Collection();
 module.exports = {
     name: "ban",
     description: "Bans A Member",
+    aliases:["ban"],
+    usage:".ban",
+    permissions:"ban members",
+
     async execute(client, message, message2, args) {
         if (message.member.permissions.has("BAN_MEMBERS")) {
             const member = message.mentions.members.first()

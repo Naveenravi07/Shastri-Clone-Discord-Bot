@@ -10,6 +10,8 @@ client.commands = new Discord.Collection();
 module.exports = {
     name: "kick",
     description: "Kicks A Member",
+    usage:".kick @user",
+    permissions:"kick members",
   async  execute(client, message, message2, args) {
         if (message.member.permissions.has("KICK_MEMBERS")) {
             const member = message.mentions.members.first()

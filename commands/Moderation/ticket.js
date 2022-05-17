@@ -10,6 +10,8 @@ client.commands = new Discord.Collection();
 module.exports = {
     name: "ticket",
     description: "Ticket System For Discord Servers",
+    usage:".ticket",
+    permissions:"administrator",
 
     async execute(client, message, message2, args) {
         if (!message.member.permissions.has("ADMINISTRATOR")) {

@@ -1,1 +1,33 @@
-{{>navbar}}
+{{>adminpartial}}
+
+<body>
+    <div class="container">
+        <div class="card " style="width: 18rem; display: inline-block; ">
+            <img class="card-img-top" style="text-align: center; align-items: center;" src="/images/logo.png"
+                alt="Card image cap">
+            <div class="card-body text-center">
+                <h5 class="card-title" style="text-align: center;"> {{clientdetails.guilds}} Servers </h5>
+                <a href="#" class="btn btn-primary ">Show More</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; display: inline-block;">
+            <img class="card-img-top" style="text-align: center; align-items: center; height: auto;"
+                src="/images/server2.png" alt="Card image cap">
+            <div class="card-body text-center">
+                <h5 class="card-title" style="text-align: center;"> {{clientdetails.channels}} Channels </h5>
+                <a href="#" class="btn btn-primary "> Show More</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; display: inline-block;">
+            <img class="card-img-top" style="text-align: center; align-items: center; height: auto;"
+                src="/images/user.png" alt="Card image cap">
+            <div class="card-body text-center">
+                <h5 class="card-title" style="text-align: center;"> {{clientdetails.channels}} Users </h5>
+                <a href="#" class="btn btn-primary "> Show More</a>
+            </div>
+        </div>
+    </div>
+</body>
+<link rel="stylesheet" href="/stylesheets/style.css">

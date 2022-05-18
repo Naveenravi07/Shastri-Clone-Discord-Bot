@@ -22,6 +22,7 @@
     "promise": "^8.1.0",
     "Promise": "^1.0.5",
     "promisfy": "^1.2.0",
+    "something-random-on-discord": "^3.4.4",
     "util": "^0.12.4"
   }
 }

@@ -1,41 +1,10 @@
-
 <div class="fullbody">
 
     <div class="container-fluid">
+        {{>navbar}}
 
-        <nav class="navbar  navbar-expand-lg bg-primary ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/images/logo.png" alt="" width="30" height="24">
-                </a>
-                <a class="navbar-brand font-weight-bold" href="#">Shastri</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link  " id="dashboard-txt" href="/">DashBoard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  " id="dashboard-txt" href="/commands">Commands</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " id="dashboard-txt" href="#">
-                                Invite
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="dashboard-txt" class="nav-link disabled ">Donate</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
         {{!-- Navbar End --}}
+
 
         {{!-- Image Card --}}
 
@@ -50,11 +19,19 @@
                 <p class="text-lg-center"> A fully customizable server moderation Discord bot for your
                     Discord server that features a lot of
                     unique commands. <br>Server management just got a whole lot easier.</p>
+                <div class="img-fluid">
+                    <img class="img-fluid" src="/images/discord.png" alt="">
+                </div>
+                <br><br><br><br><br>
+                <div style="margin-bottom: 50px;" class="indexfoot text-center">
+                    <a href="/" class=" seefeaturebtn btn btn-primary btn-lg">Invite Me </a>
+                    <a href="/" style="margin-top: 20px;" class="seefeaturebtn btn btn-primary btn-lg"> See Features</a>
+                </div>
             </div>
+
         </div>
 
     </div>
 
 </div>
 <link rel="stylesheet" href="/stylesheets/style.css">
-

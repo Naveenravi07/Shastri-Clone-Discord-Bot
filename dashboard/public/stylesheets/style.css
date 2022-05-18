@@ -32,9 +32,11 @@ h2 {
     text-align: center;
     font-weight: 700;
     margin-top: 50px;
-    background: -webkit-linear-gradient(319deg, #2f907e 0%, rgba(120, 57, 165, 1) 42%, #48abe0 100%);
+    background: white;
+    font-family: monospace;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
     font-size: 70px;
 }
 
@@ -47,7 +49,8 @@ p {
     overflow-wrap: break-word;
     word-wrap: break-all;
     font-size: 18px;
-    
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .imgpane {
@@ -99,8 +102,23 @@ button:active {
     text-align: center;
     align-items: center;
 }
-.cmdheading{
+
+.cmdheading {
     color: #48abe0;
     align-items: center;
     text-align: center;
+}
+.card{
+    margin-bottom: 50px;
+}
+.indexfoot{
+    text-align: center;
+ word-spacing: 10px;
+}
+.seefeaturebtn{
+    background: url('https://styles.redditmedia.com/t5_3b1wr/styles/communityIcon_qdbg6bz0bud71.png?width=256&s=ccf3d06bf3b8056f312f207c7ce906cf69af6efd') #4ba3eb;
+    background-repeat: no-repeat;
+    background-size: 39px 43px;
+    padding-left: 41px;
+    color: #000;
 }

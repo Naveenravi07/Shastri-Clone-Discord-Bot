@@ -23,14 +23,14 @@ db.connectDb()
 //Bot Status
 
 const activities = [
-    "with the .ping ",
-    "Valorant  💧 ",
-    "with Chemistry 🥵",
-    ".youtube"
+    "In Development ",
+    "Stay Clam  💦 ",
+    "theshastri.tk",
+    "Dm Shastri#5145"
 ];
 
 client.once('ready', async () => {
-   
+
     console.log('Ready! 🚀🚀');
     setInterval(() => {
         const randomIndex = Math.floor(Math.random() * (activities.length - 1) + 1);

@@ -1,5 +1,6 @@
 let cmdschema = require("../schemas/commandschema")
 let mongoose = require("mongoose")
+const client = require("../main")
 module.exports = {
     getModCommands: () => {
         return new Promise(async (resolve, reject) => {
@@ -29,6 +30,16 @@ module.exports = {
         return new Promise(async (resolve, reject) => {
             let customcmds = await cmdschema.find({ type: "Customs" })
             resolve(customcmds)
+        })
+    },
+    getBotInfos: () => {
+        return new Promise(async (resolve, reject) => {
+            const clientdetails = {
+                guilds: client.guilds.cache.size,
+                users: client.users.cache.size,
+                channels: client.channels.cache.size
+            }
+            resolve(clientdetails)
         })
     }
 }

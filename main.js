@@ -39,6 +39,13 @@ client.once('ready', async () => {
     }, 20000);
 })
 
+client.on("message", async (message) => {
+    if (message.content.includes(client.user.id)) {
+        console.log("hello");
+        message.reply(' ```My Default Prefix  is .```'+'\n \n Type .help to see all commands')
+    }
+    })
+
 
 module.exports = client
 client.login(token);
